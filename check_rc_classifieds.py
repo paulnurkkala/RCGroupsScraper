@@ -7,7 +7,6 @@ class RCGItem(object):
 	def __init__(self, *args, **kwargs):
 		self.attributes  = ['title', 'description', 'price', 'url', 'status']
 
-
 		#loop through attributes and set them based on what's passed in 
 		for attr in self.attributes:
 			setattr(self, attr, kwargs.get(attr))

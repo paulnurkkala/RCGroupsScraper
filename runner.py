@@ -1,11 +1,9 @@
 from check_rc_classifieds import * 
 
 forum_url      = "fpv-equipment-fs-w-710/"
-search_strings = ['dominator', 'dominators']
+search_strings = ['fatshark', 'dominator']
 
-fr = ForumRunner(
-	url = forum_url
-)
+fr = ForumRunner(url=forum_url)
 
 results = fr.run()
 
