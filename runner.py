@@ -2,7 +2,7 @@ from check_rc_classifieds import *
 
 forum_url      = "fpv-equipment-fs-w-710/"
 #forum_url      = "aircraft-electric-batteries-and-chargers-fs-w-284/"
-search_strings = ['3s', 'dominator']
+search_strings = ['fatshark', 'dominator']
 
 fr = ForumRunner(url=forum_url)
 
