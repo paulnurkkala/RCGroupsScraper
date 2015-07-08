@@ -15,4 +15,4 @@ Next steps
  * add filters so that you can decide what kinds of results you want to see
 
 
- More Details can be found at [http://paulnurkkala.com/rcg-groups-scraper/](RCGroupsScraper)
+More Details can be found at [http://paulnurkkala.com/rcg-groups-scraper/](RCGroupsScraper)
