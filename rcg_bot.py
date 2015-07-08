@@ -12,13 +12,14 @@ import time
 forum_url       = "fpv-equipment-fs-w-710/"    #the last bit of the URL on an RC groups forum page 
 search_strings  = ['fatshark', 'dominator']    #the OR string to serach for (returns all results matching these values, checking against their name on RC groups)
 repeat_interval = 10                           #time to repeat in seconds 
+pushbullet_key  = "PUSHBULLET KEY" #set to null if you aren't going to use pushbullet
 
 
 def run_the_runner():
     #code here
     print "Starting Execution Loop"
 
-    rgc_runner_run( forum_url, search_strings)
+    rgc_runner_run( forum_url, search_strings, pushbullet_key)
 
     #run this thing every x seconds 
     time.sleep(repeat_interval)
